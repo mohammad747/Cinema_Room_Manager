@@ -700,22 +700,10 @@ files:
         }
     }
   learner_created: false
-- name: src/cinema/Test.java
-  visible: true
-  text: |
-    package cinema;
-
-    public class Test {
-        public static void main(String[] args) {
-            final Scanner scanner = new Scanner(System.in); // 1
-            final int a;                                    // 2
-            final int b = scanner.nextInt() + a;            // 3
-            final int c = 0;                                // 4
-            c = b;
-            System.out.println(c + 1);
-        }
-    }
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/133/stages/713/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Mon, 06 Sep 2021 08:51:33 UTC
 record: -1
